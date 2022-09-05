@@ -25,15 +25,15 @@ const Allphotos = () => {
         </div>
         <div className="pics">
           <div className="image-content">
-            <img src={firstImg} alt="" width={159} height={199} />
+            <img src={firstImg} alt="" width={139} height={199} />
             seg_12399.jpg
           </div>
           <div className="image-content">
-            <img src={secondImg} alt="" width={159} height={111} />
+            <img src={secondImg} alt="" width={139} height={111} />
             New_house_... .jpg
           </div>
           <div className="image-content">
-            <img src={thirdImg} alt="" width={159} height={168} />
+            <img src={thirdImg} alt="" width={139} height={168} />
             Barakpore valley.jpg
           </div>
           <div className="image-content">
@@ -41,11 +41,11 @@ const Allphotos = () => {
             Kitchen_sansudan.jpg
           </div>
           <div className="image-content">
-            <img src={fifthImg} alt="" width={159} height={95} />
+            <img src={fifthImg} alt="" width={139} height={95} />
             Bridge.jpg
           </div>
           <div className="image-content">
-            <img src={sixthImg} alt="" width={159} height={160} />
+            <img src={sixthImg} alt="" width={139} height={160} />
             Abstract_44533.jpg
           </div>
         </div>
@@ -57,7 +57,7 @@ const Allphotos = () => {
         </div>
         <div className="pics">
           <div className="image-content">
-            <img src={seventhImg} alt="" width={159} height={199} />
+            <img src={seventhImg} alt="" width={139} height={199} />
             seg_12399.jpg
           </div>
           <div className="image-content">
@@ -65,27 +65,27 @@ const Allphotos = () => {
             New_house_... .jpg
           </div>
           <div className="image-content">
-            <img src={ninthImg} alt="" width={159} height={95} />
+            <img src={ninthImg} alt="" width={139} height={95} />
             Barakpore valley.jpg
           </div>
           <div className="image-content">
-            <img src={tenthImg} alt="" width={159} height={168} />
+            <img src={tenthImg} alt="" width={139} height={168} />
             Kitchen_sansudan.jpg
           </div>
           <div className="image-content">
-            <img src={eleventhImg} alt="" width={159} height={168} />
+            <img src={eleventhImg} alt="" width={139} height={168} />
             Bridge.jpg
           </div>
           <div className="image-content">
-            <img src={twelvethImg} alt="" width={159} height={199} />
+            <img src={twelvethImg} alt="" width={139} height={199} />
             Abstract_44533.jpg
           </div>
           <div className="image-content">
-            <img src={thirteenthImg} alt="" width={159} height={199} />
+            <img src={thirteenthImg} alt="" width={139} height={199} />
             seg_12399.jpg
           </div>
           <div className="image-content">
-            <img src={fourteenthImg} alt="" width={159} height={150} />
+            <img src={fourteenthImg} alt="" width={139} height={150} />
             New_house_... .jpg
           </div>
         </div>
