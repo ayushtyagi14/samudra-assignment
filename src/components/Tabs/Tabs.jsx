@@ -62,6 +62,12 @@ const Tabs = () => {
           />
           New Category
         </div>
+        <div className="small">
+          <img
+            className="plus"
+            src="https://img.icons8.com/android/15/B7BEC7/plus.png"
+          />
+        </div>
       </div>
       {activeTab === "tab1" ? <Allphotos /> : <Architecture />}
     </div>
