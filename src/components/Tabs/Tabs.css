@@ -19,6 +19,7 @@ li {
   justify-content: space-between;
   align-items: center;
   color: #6f7378;
+  width: max-content;
 }
 
 li:hover {
@@ -42,6 +43,10 @@ li:hover {
   cursor: pointer;
 }
 
+.small {
+  display: none;
+}
+
 .plus {
   background-color: #323337;
 }
@@ -51,10 +56,26 @@ li:hover {
   border-bottom: solid 1px #ffffff;
 }
 
-@media screen and (max-width: 450px) {
-  .new {
-    height: 50px;
+@media screen and (max-width: 550px) {
+  .small {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 300px;
+    background-color: #323337;
+    color: #b7bec7;
     font-size: 12px;
+    width: 180px;
+    height: 30px;
+  }
+
+  .new {
+    display: none;
+  }
+
+  .lists {
+    margin-left: -45px;
   }
 
   .nav {
@@ -67,9 +88,17 @@ li:hover {
   }
 }
 
-@media screen and (min-width: 500px) and (max-width: 1000px) {
+@media screen and (min-width: 570px) and (max-width: 1100px) {
   .new {
     width: 280px;
+  }
+
+  .small {
+    display: none;
+  }
+
+  li {
+    width: max-content;
   }
 
   .lists {
