@@ -1,12 +1,12 @@
 .allphotos {
   font-family: "Cormorant-Upright";
+  margin-left: 0px;
 }
 
 .pics {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: flex-end;
+  display: grid;
+  grid-template-columns: repeat(6, 0.5fr);
+  align-items: end;
 }
 
 .image-content {
@@ -27,8 +27,8 @@
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 img {
@@ -46,7 +46,19 @@ img:hover {
   }
 
   .pics {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: repeat(2, 0.5fr);
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 560px) and (max-width: 900px) {
+  .pics {
+    grid-template-columns: repeat(3, 0.5fr);
+  }
+}
+
+@media screen and (min-widht: 901px) and (max-width: 1024px) {
+  .pics {
+    grid-template-columns: repeat(4, 0.5fr);
   }
 }
