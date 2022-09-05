@@ -1,0 +1,52 @@
+.allphotos {
+  font-family: "Cormorant-Upright";
+}
+
+.pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.filter {
+  font-size: 52px;
+  color: #2e8bff;
+}
+
+.day {
+  font-size: 20px;
+  color: #6f7378;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  border-radius: 10px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pics {
+    flex-direction: column;
+    align-items: center;
+  }
+}

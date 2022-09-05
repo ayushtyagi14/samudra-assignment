@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Inter";
+  src: local("Inter"),
+    url("./assets/Fonts/Inter/Inter-VariableFont_slnt\,wght.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant-Upright";
+  src: local("Cormorant-Upright"),
+    url("./assets/Fonts/Cormorant_Upright/CormorantUpright-Regular.ttf")
+      format("truetype");
+}
+
+* {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: "Inter";
+  margin: 8px;
+}
+
+*::-webkit-scrollbar {
+  background-color: #1e1e1e;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 300px;
+  background-color: #323337;
+}
+
+@media screen and (max-width: 550px) {
+  * {
+    margin: 6px;
+  }
+}
