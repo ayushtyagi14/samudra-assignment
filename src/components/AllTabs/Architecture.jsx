@@ -17,7 +17,7 @@ const Architecture = () => {
         </div>
         <div className="pics">
           <div className="image-content">
-            <img src={secondImg} alt="" width={159} height={111} />
+            <img src={secondImg} alt="" width={139} height={111} />
             New_house_... .jpg
           </div>
           <div className="image-content">
@@ -25,7 +25,7 @@ const Architecture = () => {
             Kitchen_sansudan.jpg
           </div>
           <div className="image-content">
-            <img src={fifthImg} alt="" width={159} height={95} />
+            <img src={fifthImg} alt="" width={139} height={95} />
             Bridge.jpg
           </div>
         </div>
@@ -37,7 +37,7 @@ const Architecture = () => {
         </div>
         <div className="pics">
           <div className="image-content">
-            <img src={seventhImg} alt="" width={159} height={199} />
+            <img src={seventhImg} alt="" width={139} height={199} />
             seg_12399.jpg
           </div>
           <div className="image-content">
@@ -45,7 +45,7 @@ const Architecture = () => {
             New_house_... .jpg
           </div>
           <div className="image-content">
-            <img src={fourteenthImg} alt="" width={159} height={150} />
+            <img src={fourteenthImg} alt="" width={139} height={150} />
             New_house_... .jpg
           </div>
         </div>
